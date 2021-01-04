@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coding Quiz</title>
+    <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+<link rel="stylesheet" href="quiz.css">
+</head>
+<body>
+    <!-- Start Page -->
+    <div id="startPage" class="container border">
+    <h1>Take the Coding Quiz!</h1>
+
+    <h2>You have 1 minute and 15 seconds to complete the quiz. For every incorrect answer you will be penalized 15 seconds.
+        When you're ready just hit start to begin!</h2>
+    <button id="start">Start Quiz</button>
+    </div>  
+
+    <div id="questions" class="hide">
+        <h2 id="questionTitle"></h2>
+        <div id="choices" class="choices"></div>
+    </div>
+
+    <div id="endScreen" class="hide">
+        <p>Your score is: <span id="finalScore"></span></p>
+        <p class="initials">Enter your initals: <input type="text" id="initials" max="3"></p>
+        <button id="submit">Submit</button>
+    </div>
+
+    <script src="logic.js"></script>
+    <script src="questions.js"></script>
+    
+</body>
+</html>
