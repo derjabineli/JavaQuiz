@@ -1,0 +1,34 @@
+/* background color */
+body{
+    background-color: #4a64af;
+    color: white;
+}
+
+/* Start page */
+
+.border {
+    border: 4px solid #dabddb;
+    padding: 30px 30px;
+    position: absolute;
+    top: 40vh;
+    width: 50vw;
+    text-align: center;
+    left: 450px;
+}
+
+/* Hides Elements */
+.hide {
+    display: none;
+  }
+
+/* Questions */
+.choice {
+    color: black;
+    size: 60px
+    
+}
+
+/* Initials Input field */
+.initials {
+    color: black
+}
